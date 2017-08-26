@@ -13,15 +13,15 @@ from instabot import InstaBot
 from unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",
-    password="password",
+    login="macroandflora",
+    password="YxvKYO9r#hX0s4utMNPF",
     like_per_day=1000,
-    comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute'],
+    comments_per_day=10,
+    tag_list=['macroandflora', 'macro'],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
-    max_like_for_one_tag=50,
-    follow_per_day=300,
+    max_like_for_one_tag=500,
+    follow_per_day=30,
     follow_time=1 * 60,
     unfollow_per_day=300,
     unfollow_break_min=15,
